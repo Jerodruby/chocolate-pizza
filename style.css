@@ -1,54 +1,149 @@
-*{
 
+
+#logo{
+  margin-right:.2em;
+  margin-top:.8em;
+}
+header{
+  height:40px;
 }
 h2{
   font-family: cursive;
   display:inline;
-  padding: 0px;
+  font-style: italic;
 }
 #title{
   color: gray;
   font-family: sans-serif;
-  padding:0px;
+  margin:0px;
 }
 #header-block{
   display: inline-block;
-  line-height: 0px;
 }
+h1{
+  font-family: sans-serif;
+  margin-bottom:2px;
+  margin-top:0px;
+  border-top: solid lightgray 10px;
+  line-height:130px;
+  height:80px;
+}
+
+h5{
+  font-family: sans-serif;
+  margin-top:2px;
+  font-size: 10px;
+  color:gray;
+}
+
 nav li{
-  display:inline-block;
-  float: right;
+  display:inline;
+  float: left;
+  margin:.8px;
+  list-style-type: none;
 }
-header{
-  max-width: 901px;
+
+nav li:nth-child(6){
+  margin-right:10px;
 }
+
 #printer-image{
   display: inline-block;
   float: right;
+  position: relative;
+  top:-25px
+}
+#print-button{
+  float:right;
+  position: relative;
+  top:-30px;
+  border:none;
+  color:gray;
 }
 main{
-  max-width: 901px;
+  margin-top: 50px;
+  margin-bottom:  60px;
 }
-body{
-  max-width: 800px;
-}
-#main-paragraph{
+.main-paragraph{
   text-indent: 2em;
+  color:gray;
+  margin:25px;
 }
+
 #column-1{
   position: absolute;
   top: 1100px;
-  left: 100px;
-  list-style-type: square;
+  left: 300px;
+  font-family: sans-serif;
+  color:rgb(116, 113, 113);
 }
 #column-2{
   position: absolute;
   top: 1100px;
-  left: 500px;
+  left: 670px;
   list-style-type: square;
+  font-family: sans-serif;
+  color:rgb(116, 113, 113);
 }
-button{
-  width: 100px;
-  background: #AA3C30;
+#share{
+  background: rgb(216, 116, 76);
+  float:right;
+  height: 45px;
+  margin-top: 50px;
+  color:white;
+  width:150px;
+  
+}
+#page-container{
+  box-sizing:border-box;
+  display:block;
+  height:100vh;
+  max-width: 901px;
+  margin:auto;
+}
+nav{
+  float:right;
+  margin-top:15px;
+}
+
+#column-1 li{
+  list-style-type: none;
+  padding:.5em;
+}
+
+#column-2 li{
+  list-style-type: none;
+  padding :.5em;
+}
+
+#vanessa-comment{
+  display:inline-block;
+  margin-left:15px;
+  color:gray;
+  
+}
+#comment-section{
+  margin-bottom: 60px;
+  padding-top: 30px
+}
+
+footer{
+  border-top: solid lightgray 10px;
+
+}
+
+.crossout{
+  text-decoration: line-through;
+}
+#bottomlogo{
+  margin-left: 48%;
+}
+#copyright{
+  text-align:center;
+  color:gray;
+}
+
+#foot-info{
+  margin-top:40px;
 }
 
