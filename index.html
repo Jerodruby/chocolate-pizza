@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta class="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Chocolate Pizza</title>
     <link rel="stylesheet" href="style.css">
@@ -56,23 +56,23 @@
         <div>
             <section id = "recipe">
                 <ul id = "column-1">
-                    <li>1 1/2 cups milk</li>
-                    <li>1/2 cup mascarpone</li>
-                    <li>1/2 tsp pink salt</li>
-                    <li>1 lb Black Mission Figs</li>
-                    <li>1/2 cup brown sugar</li>
-                    <li>2-4 tbsp water</li>
+                    <li><input type = "checkbox" > 1 1/2 cups milk </li>
+                    <li><input type = "checkbox" > 1/2 cup mascarpone</li>
+                    <li><input type = "checkbox" > 1/2 tsp pink salts</li>
+                    <li><input type = "checkbox" > 1 lb black mission figs</li>
+                    <li><input type = "checkbox" > 1/2 cup brown sugar</li>
+                    <li><input type = "checkbox" > 2-4 tbsp water</li>
                 </ul>
 
             </section>
             <section>
                 <ul id = "column-2">
-                        <li>1 1/2 cups heay cream</li>
-                        <li>1/3 granulated sugar</li>
-                        <li>2 egg yolks</li>
-                        <li>1 lemon, juiced</li>
-                        <li>2 tbsp butter</li>
-                        <li>1 cup honey roasted pecans, roughly chopped</li>
+                        <li> <input type = "checkbox"> 1 1/2 cups heay cream</li>
+                        <li class = "crossout"> <input type = "checkbox" checked > 1/3 granulated sugar</li>
+                        <li class ="crossout"><input type = "checkbox" checked> 2 egg yolks</li>
+                        <li><input type = "checkbox"> 1 lemon, juiced</li>
+                        <li><input type = "checkbox"> 2 tbsp butter</li>
+                        <li><input type = "checkbox"> 1 cup honey roasted pecans, roughly chopped</li>
                     </ul>                
             </section>
 
@@ -80,19 +80,23 @@
 
     </main>
     <footer>
-        <img src="img/van-pic.png">
-        <section id = "vanessa-comment">
-            <h3>Vanessa Stevenson</h3>
-            <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's<br> pretty much who I am.</p>
-        </section>
-        <button id = "share">
-            SHARE RECIPE
-        </button>
-        <div>
-            <img src="img/small-logo.png">
+        <div id = "comment-section">
+            <img src="img/van-pic.png">
+            <section id = "vanessa-comment">
+                <h3>Vanessa Stevenson</h3>
+                <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+            </section>
+            <button id = "share">
+                SHARE RECIPE
+            </button>
         </div>
-        <h6>Delicious © 2013. All Rights Reserved.</h6>
-        <h6>Proudly published with Ghost</h6>
+        <div id = "footerinfo">
+            <img src="img/small-logo.png" id = "bottomlogo">
+            <section id = "copyright">
+                <h6>Delicious © 2013. All Rights Reserved.</h6>
+                <h6>Proudly published with Ghost</h6>
+             </section>  
+        </div>
 
     </footer>    
 </div>
